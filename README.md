@@ -6,6 +6,8 @@ Research Links:
 
    db linking:
    
+    fundamentals: https://msdn.microsoft.com/en-us/library/windows/desktop/ms738545(v=vs.85).aspx (Winsock tech)
+    
     1. https://www.codeproject.com/Articles/13673/C-Winsock-Client-To-Server-File-Transfer-Made-Easy (What we are using for this project)     
     2.  https://www.youth4work.com/Talent/C-Language/Forum/118317-how-do-link-database-with-in-a-c-program
     
