@@ -3,6 +3,17 @@
 #include<string.h>
 #include<stdio.h>
 
+ // Sample implementation code
+  /*
+  void main() {
+    clrscr();
+    message msg1;
+    msg1.inputMessage();
+    msg1.output();
+    getch();
+  } */
+
+
 //general blueprint for messages
  class message {
    char title[30];
@@ -88,12 +99,4 @@
      cout << endl;
    }
 
-  // Sample implementation code
-  /*
-  void main() {
-    clrscr();
-    message msg1;
-    msg1.inputMessage();
-    msg1.output();
-    getch();
-  } */
+ 
