@@ -1,6 +1,7 @@
 #include<iostream.h>
 #include<conio.h>
 #include<string.h>
+#include<stdio.h>
 
 //general blueprint for messages
  class message {
@@ -25,7 +26,7 @@
      msg_status = 0;
    }
 //constructor2
-   message(char t[30],char f[30],char to[30],char msg[200]) {
+   message(char t[30],char f[30],char too[30],char m[200]) {
     msg_status = 1;
     msg_count++;
     checkInput(t,30);
@@ -36,8 +37,13 @@
      if(msg_status == 0) {
       cout <<  "Go to input screen";
        //instead of this cout the input function goes here
+      } else{
+       strcpy(title,t);
+       strcpy(from,f);
+       strcpy(to,too);
+       strcpy(msg,m);
       }
-     }
+    }
 
  }; //end of message class
 
@@ -51,8 +57,14 @@
       //add input function here.
     }
    }
-
- //Input message
+//Output message
+   void message :: output() {
+      cout.write(from,30) ;  cout << endl;
+      cout.write(to,30) ;    cout << endl;
+      cout.write(title,30);  cout << endl;
+      cout.write(msg,200);    cout << endl;
+   }
+//Input message
    void inputMessage() {
     char title[30];
     char from[30];
@@ -68,7 +80,7 @@
      cin.getline(msg,200,'.');
      cout << "Send ? ... (Y/N) ";
      cin >> ch;
-     if(ch == 'Y') {
+     if(ch == 'Y' || ch == 'y') {
        message convo_msg(title,from,to,msg);
        convo_msg.output();
      } else {
@@ -77,14 +89,8 @@
      cout << endl;
    }
 
- //test function remove or comment out if you see this
-   void message :: output() {
-      cout << from <<endl ;
-      cout << to <<endl ;
-      cout << title << endl;
-      cout << msg << endl;
-   }
   void main() {
+    clrscr();
     inputMessage();
     getch();
   }
