@@ -15,6 +15,7 @@
   /* msg status of 1 indicates no error
     msg status of 0 indicates a error */
 //prototypes
+    void inputMessage();
     void checkInput(char x[300],int max);
     void output();
 //default constructor
@@ -59,17 +60,16 @@
    }
 //Output message
    void message :: output() {
-      cout.write(from,30) ;  cout << endl;
-      cout.write(to,30) ;    cout << endl;
-      cout.write(title,30);  cout << endl;
-      cout.write(msg,200);    cout << endl;
+      cout<< endl;
+      cout << "message start" << endl;
+      puts(from) ;  cout << endl;
+      puts(to) ;    cout << endl;
+      puts(title);  cout << endl;
+      puts(msg);    cout << endl;
+      cout << "message end" << endl;
    }
 //Input message
-   void inputMessage() {
-    char title[30];
-    char from[30];
-    char to[30];
-    char msg[200];
+   void message :: inputMessage() {
     char ch;
      strcpy(from,"CurrentUser");   //Chage crt user with the logged in user
      cout << "Input user id of reciever:" <<endl;
@@ -81,16 +81,19 @@
      cout << "Send ? ... (Y/N) ";
      cin >> ch;
      if(ch == 'Y' || ch == 'y') {
-       message convo_msg(title,from,to,msg);
-       convo_msg.output();
+	cout << "Message send";
      } else {
        inputMessage();
      }
      cout << endl;
    }
 
+  // Sample implementation code
+  /*
   void main() {
     clrscr();
-    inputMessage();
+    message msg1;
+    msg1.inputMessage();
+    msg1.output();
     getch();
-  }
+  } */
