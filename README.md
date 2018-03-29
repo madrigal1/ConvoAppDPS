@@ -1,6 +1,12 @@
 # ConvoAppDPS
 school final project 
 
+Update prototype 1.1:
+ Have emerged all the modules into one (COnvoAPp.cpp) .
+ We shall now e working with a single source file 
+ PLz comment and test it out fully before uploading.
+ 
+
 Research Links:
 
 
