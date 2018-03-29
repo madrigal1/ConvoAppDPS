@@ -1,0 +1,4 @@
+class of Users Are present .
+Each User interacts with the other users via chatroom
+   -- Therefore a single user access an array of chatrooms
+Each Chatroom is an array of messages
