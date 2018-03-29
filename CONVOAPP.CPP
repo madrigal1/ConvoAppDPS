@@ -128,7 +128,7 @@ void chatroom :: create() {
    if(ch == 'Y' || ch == 'y') {
       cout << endl << "Enter name of chatroom: ";
       gets(name);
-   //cap on max users is 100 by defulat
+   //cap on max users is 20 by defulat
       cout << "Enter end to terminate." << endl;
     int index;
     for(ppsize =1,index =0;ppsize<=max;ppsize++,index++) {
