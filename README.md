@@ -1,6 +1,10 @@
 # ConvoAppDPS
 school final project 
 
+Update prototype 1.4
+bug fixes 
+chatroom class complete
+
 Update prototype 1.3
 Added the chatroom class and its methods
 Error in printing out the participants.
