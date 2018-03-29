@@ -1,6 +1,9 @@
 # ConvoAppDPS
 school final project 
 
+Update 1.6
+Registration functionality complete
+
 Update prototype 1.5
 homescreen added
 
