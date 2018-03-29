@@ -1,6 +1,9 @@
 # ConvoAppDPS
 school final project 
 
+Update prototype 1.5
+homescreen added
+
 Update prototype 1.4
 bug fixes 
 chatroom class complete
