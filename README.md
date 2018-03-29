@@ -1,7 +1,13 @@
 # ConvoAppDPS
 school final project 
 
-Update prototype 1.1:
+Update prototype 1.3
+Added the chatroom class and its methods
+Error in printing out the participants.
+to be fixed
+
+
+Update prototype 1.2:
  Have emerged all the modules into one (COnvoAPp.cpp) .
  We shall now e working with a single source file 
  PLz comment and test it out fully before uploading.
