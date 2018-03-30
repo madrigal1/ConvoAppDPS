@@ -1,6 +1,10 @@
 # ConvoAppDPS
 school final project 
 
+Update 1.7
+User databse created 
+console to file realtion established
+
 Update 1.6
 Registration functionality complete
 
