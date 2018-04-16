@@ -3,7 +3,9 @@ school final project
 
 Update 1.8
 Settings functionality fully completed
+
 Database file io functionality fully completed 
+
 Encoding rules established
 
 
