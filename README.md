@@ -2,7 +2,8 @@
 school final project 
 
 Update 1.8
-Settings functionality fully completed
+
+       Settings functionality fully completed
 
        Database file io functionality fully completed 
 
@@ -10,29 +11,35 @@ Settings functionality fully completed
 
 
 Update 1.7
-User databse created 
-console to file relation established
+
+    User databse created 
+    console to file relation established
 
 Update 1.6
-Registration functionality complete
+
+    Registration functionality complete
 
 Update prototype 1.5
-homescreen added
+
+    homescreen added
 
 Update prototype 1.4
-bug fixes 
-chatroom class complete
+
+     bug fixes 
+     chatroom class complete
 
 Update prototype 1.3
-Added the chatroom class and its methods
-Error in printing out the participants.
-to be fixed
+
+     Added the chatroom class and its methods
+     Error in printing out the participants.
+     to be fixed
 
 
 Update prototype 1.2:
- Have emerged all the modules into one (COnvoAPp.cpp) .
- We shall now e working with a single source file 
- PLz comment and test it out fully before uploading.
+
+    Have emerged all the modules into one (COnvoAPp.cpp) .
+    We shall now e working with a single source file 
+    PLz comment and test it out fully before uploading.
  
 
 Research Links:
