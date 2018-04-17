@@ -1,6 +1,10 @@
 # ConvoAppDPS
 school final project
 
+Update 10.0
+
+    chatroom creator up and functional
+
 Update 1.9
 
      Highly stable build 
