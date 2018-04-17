@@ -1,5 +1,10 @@
 # ConvoAppDPS
-school final project 
+school final project
+
+Update prototype 1.8.1
+
+     Database querying 
+     Database functionality under active development
 
 Update 1.8
 
