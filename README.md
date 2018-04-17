@@ -4,7 +4,7 @@ school final project
 Update 1.9
 
      Highly stable build 
-     Fully operation user registration 
+     Fully operational user registration 
      Fully operational user verification 
      Fully functional settings functionality and database
      
