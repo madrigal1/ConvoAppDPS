@@ -2,10 +2,11 @@
 school final project
 
 Update 11.0
-  User system was given its final touches
-  Joining a chatroom is now possible
-  file to console input and output for the chatroom dbs are fully operational
-  All bugs handled
+
+    User system was given its final touches
+    Joining a chatroom is now possible
+    file to console input and output for the chatroom dbs are fully operational
+    All bugs handled
 
 Update 10.0
 
