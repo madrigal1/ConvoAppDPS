@@ -1,6 +1,13 @@
 # ConvoAppDPS
 school final project
 
+
+Bug report
+
+     V 11.* has bugs
+     The devoloping chat-db file io is causing problems
+     Use v10 for temp demo of project if needed
+
 Update 11.0
 
     User system was given its final touches
