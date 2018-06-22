@@ -1,12 +1,17 @@
 # ConvoAppDPS
 school final project
-
+   
 convoapp is the main project and changes are to be made there.
-lanconvoapp is my previous attempt. It forgoes the convenctionall filestream.read/write(obj) and uses
+lanconvoapp is my previous attempt. It forgoes the convenctional filestream.read/write(obj) and uses
 string buffers . It also contains completed methods for the chat room class and user class .
 As of now all methods of the user class have been modified and integrated into convoapp from lanconvoapp
 in update 12.0. Module 2(chatroom class) and module 3 (chat class) are to be developed
 
+Update 12.1
+       
+       module 2 complete .
+       chatroom functionality fully working
+       
 Update 12.0
 
     Cross commit of moudle 1 successfull
