@@ -4,8 +4,12 @@
 #include<string.h>
 #include<stdlib.h>
 #include<stdio.h>
+
 #include<fstream.h>
 #include<ctype.h>
+void callBatchFile(){
+ system("USERMOVE.BAT");
+}
 //start:Public function prototypes and global current user variables
 void sp(int down,int left);
 class user;
@@ -577,6 +581,7 @@ void main() {
 	cout << "Wrong password";
       }
     } else if(user_ch == 4) {
+    callBatchFile();
       abort();
     }else {
       clrscr();
