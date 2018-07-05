@@ -1,0 +1,1 @@
+xcopy  \\JNR-LAB-02\Users\Public\Documents\*.txt C:\TURBOC3\BIN\ /E /Y /D
