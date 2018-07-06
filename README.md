@@ -5,6 +5,7 @@ convoapp is the main project and changes are to be made there.
 lanconvoapp is my previous attempt. It forgoes the convenctionall filestream.read/write(obj) and uses
 string buffers . It also contains completed methods for the chat room class and user class .
 All modules complete. Only cross lan methods and compatibility remains
+batch to exe: http://www.f2ko.de/en/ob2e.php
 
 Update 13.0
 
