@@ -149,10 +149,17 @@ char current_user[30];   //current user
        chat.open(filename,ios::in | ios::noreplace);
        int count = 0;
     //Lists existing messages
+       om[count].msg_status =1;
        while(!chat.eof()) {
+
 	 chat.read((char*)&om[count],sizeof(om[count]));
+	 if(om[count].msg_status== 1){
 	 om[count].output();
+	 om[count].msg_status =0;
+	 }
 	 getch();
+
+
        }//end of while
        chat.close();
        messageloop(tempmsgcount,chatname);
