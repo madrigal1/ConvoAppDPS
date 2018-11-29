@@ -7,6 +7,8 @@ string buffers . It also contains completed methods for the chat room class and 
 All modules complete. Only cross lan methods and compatibility remains
 batch to exe: http://www.f2ko.de/en/ob2e.php
 
+Update 17.0
+    All Lan capabilities fully functional. 
 Update 13.0
 
     All modules complete.
